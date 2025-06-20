@@ -41,7 +41,7 @@ python3 main.py --cmd --encode url
 
 👤 Author
 
-Ubaidullah Qureshi — Intern at ITSOLERA PVT LTD
+Ubaidullah Qureshi 
 
 
 
