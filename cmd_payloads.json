@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Linux",
+        "payload": ";ls"
+    },
+    {
+        "type": "Linux",
+        "payload": "&& whoami"
+    },
+    {
+        "type": "Linux",
+        "payload": "`id`"
+    },
+    {
+        "type": "Windows",
+        "payload": "& whoami"
+    },
+    {
+        "type": "Windows",
+        "payload": "| net user"
+    }
+]

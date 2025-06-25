@@ -1,0 +1,5 @@
+[Linux] ;ls
+[Linux] && whoami
+[Linux] `id`
+[Windows] & whoami
+[Windows] | net user
