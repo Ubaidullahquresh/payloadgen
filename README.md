@@ -182,18 +182,5 @@ Screenshot Example:
 ## 👨‍💻 Author
 
 - **Ubaidullah Qureshi**
-- Intern at **ITSOLERA PVT LTD**
-- Task: **Offensive Security Payload Generator Tool**
-- Deadline: **27th June 2025**
 
----
-
-## ✅ Status
-
-This tool is **complete** and ready for:
-
-- 🛡️ Offensive testing labs
-- 💻 TryHackMe / HackTheBox
-- 🧰 Portfolio & Job Applications
-- 📤 GitHub / Internship Submission
 
