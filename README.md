@@ -23,32 +23,6 @@ A modular offensive security tool to generate, encode, obfuscate, and export web
 
 ---
 
-## 📁 Folder Structure
-
-\`\`\`
-payloadgen/
-├── modules/
-│   ├── xss.py                # XSS payloads
-│   ├── sqli.py               # SQLi payloads
-│   ├── command_injection.py  # CMDi payloads
-│   └── encoder.py            # Encoding module
-│
-├── utils/
-│   └── obfuscator.py         # Obfuscation module
-│
-├── samples/
-│   ├── xss_payloads.json
-│   ├── sqli_payloads.json
-│   └── cmd_payloads.json
-│
-├── main.py                   # CLI entrypoint
-├── requirements.txt
-├── README.md
-└── screenshots/demo.png
-\`\`\`
-
----
-
 ## 🔧 Usage Examples
 
 \`\`\`bash
@@ -153,31 +127,6 @@ SELECT/**//*/*/**/FROM/**/users
 | File         | JSON output saved with \`--export\`          |
 | Screenshot   | (optional) for GUI demo or reports         |
 
-Example output file:
-\`\`\`json
-[
-    {
-        "type": "Reflected",
-        "payload": "%3Cscript%3Ealert(1)%3C%2Fscript%3E"
-    }
-]
-\`\`\`
-
----
-
-## 📸 Screenshots
-
-Use `xfce4-screenshooter` or `spectacle` to capture CLI:
-
-\`\`\`bash
-xfce4-screenshooter -f -s screenshots/
-\`\`\`
-
-Screenshot Example:
-
-![demo](screenshots/demo.png)
-
----
 
 ## 👨‍💻 Author
 
